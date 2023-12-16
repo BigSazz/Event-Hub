@@ -9,7 +9,7 @@ import { Logo } from "./Logo";
 
 const Header = () => {
 	return (
-		<header className="w-full border-b">
+		<header className="w-full border-b fixed top-0 bg-white">
 			<div className="wrapper flex items-center justify-between">
 				<Link href="/" className="w-36">
 					<Logo />
